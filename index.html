@@ -53,50 +53,46 @@
 
 
 
-    <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
+   <tr onmouseout="flood_stop()" onmouseover="flood_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='smerf_image'><video  width=100% muted autoplay loop>
-          <source src="images/smerf.mp4" type="video/mp4">
+          <div class="two" id='flood_image'><video  width=100% muted autoplay loop>
+          <source src="images/flood_preview.mp4" type="video/mp4">
           Your browser does not support the video tag.
           </video></div>
-          <img src='images/smerf.jpg' width=100%>
+          <img src='images/flood_hazard_map.jpg' width=100%>
         </div>
         <script type="text/javascript">
-          function smerf_start() {
-            document.getElementById('smerf_image').style.opacity = "1";
+          function flood_start() {
+            document.getElementById('flood_image').style.opacity = "1";
           }
 
-          function smerf_stop() {
-            document.getElementById('smerf_image').style.opacity = "0";
+          function flood_stop() {
+            document.getElementById('flood_image').style.opacity = "0";
           }
-          smerf_stop()
+          flood_stop()
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://smerf-3d.github.io/">
-          <span class="papertitle">SMERF: Streamable Memory Efficient Radiance Fields for Real-Time Large-Scene Exploration</span>
+        <a href="https://drive.google.com/file/d/1lz1bq-RrDQdG907IxArT1dlqRpqQQ1FR/view?usp=sharing">
+          <span class="papertitle">Integrated Flood Hazard Assessment of the Greater Toronto Area: Employing Stakeholder Perspectives using Fuzzy Functions and the Analytic Hierarchy Process</span>
         </a>
         <br>
-		<a href="http://www.stronglyconvex.com/about.html">Daniel Duckworth*</a>,
-		<a href="https://phogzone.com/">Peter Hedman*</a>,
-		<a href="https://creiser.github.io/">Christian Reiser</a>,
-		<a href="">Peter Zhizhin</a>,
-		<a href="">Jean-François Thibert</a>,
-        <a href="https://lucic.ai/">Mario Lučić</a>,
-        <a href="https://szeliski.org/">Richard Szeliski</a>,
-		<strong>Jonathan T. Barron</strong>
+        <a href="mailto:loschi74@my.yorku.ca">Anthony Loschiavo</a>,
+        <a href="mailto:meet030@my.yorku.ca">Meetkumar Patel</a>,
+        <a href="mailto:ross325@my.yorku.ca">William Ross</a>
         <br>
-        <em>arXiv</em>, 2023
+        <em>EU/GEOG 4340 3.00: Spatial Analysis &amp; Problem Solving GIS</em>, 2025
         <br>
-        <a href="https://smerf-3d.github.io/">project page</a>
+        <a href="https://drive.google.com/file/d/1lz1bq-RrDQdG907IxArT1dlqRpqQQ1FR/view?usp=sharing">PDF</a>
         /
-        <a href="https://www.youtube.com/watch?v=zhO8iUBpnCc">video</a>
-        /
-        <a href="https://arxiv.org/abs/2312.07541">arXiv</a>
+        <a href="#flood_data">Data (Available on Request)</a>
         <p></p>
         <p>
-        Distilling a Zip-NeRF into a tiled set of MERFs lets you fly through radiance fields on laptops and smartphones at 60 FPS.
+        Developed a comprehensive flood hazard assessment for the GTA integrating Multi-Criteria Decision Making (MCDM) with stakeholder perspectives. Combined Analytic Hierarchy Process (AHP) weighting with fuzzy logic in GIS to create consensus-based flood risk maps. Analyzed 7 environmental factors across 6M+ population areas, incorporating inputs from municipal governments, conservation authorities, and residents.
+        </p>
+        <p>
+        Key features: Stakeholder-weighted risk modeling • Fuzzy function classification • 30m resolution spatial analysis • Composite hazard mapping • Climate change adaptation strategies
         </p>
       </td>
     </tr>

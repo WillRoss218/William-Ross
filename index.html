@@ -98,51 +98,47 @@
     </tr>
 	
 
-    <tr onmouseout="nuvo_stop()" onmouseover="nuvo_start()">
+    <tr onmouseout="phragmites_stop()" onmouseover="phragmites_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='nuvo_image'><video  width=100% muted autoplay loop>
-          <source src="images/nuvo.mp4" type="video/mp4">
+          <div class="two" id='phragmites_image'><video  width=100% muted autoplay loop>
+          <source src="images/phragmites_preview.mp4" type="video/mp4">
           Your browser does not support the video tag.
           </video></div>
-          <img src='images/nuvo.jpg' width=100%>
+          <img src='images/phragmites_map.jpg' width=100%>
         </div>
         <script type="text/javascript">
-          function nuvo_start() {
-            document.getElementById('nuvo_image').style.opacity = "1";
+          function phragmites_start() {
+            document.getElementById('phragmites_image').style.opacity = "1";
           }
 
-          function nuvo_stop() {
-            document.getElementById('nuvo_image').style.opacity = "0";
+          function phragmites_stop() {
+            document.getElementById('phragmites_image').style.opacity = "0";
           }
-          nuvo_stop()
+          phragmites_stop()
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://pratulsrinivasan.github.io/nuvo/">
-          <span class="papertitle">Nuvo: Neural UV Mapping for Unruly 3D Representations</span>
+        <a href="https://drive.google.com/file/d/1Lmc-C4cmHf2V-KwhEmFo59f4mQqXrfZo/view?usp=sharing">
+          <span class="papertitle">Remote Sensing Assessment of Phragmites Management along Tom Taylor Trail: Sentinel-2, LiDAR, Texture, and Multi-Index Analysis</span>
         </a>
         <br>
-        <a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
-        <a href="http://stephangarbin.com/">Stephan J. Garbin</a>,
-        <a href="https://dorverbin.github.io/">Dor Verbin</a>,
-		<strong>Jonathan T. Barron</strong>,
-        <a href="https://bmild.github.io/">Ben Mildenhall</a>
+        <a href="mailto:ross325@my.yorku.ca">William Ross</a>
         <br>
-        <em>arXiv</em>, 2023
+        <em>EU/GEOG 4440 M: Processing and Analysis of Earth Observation</em>, 2025
         <br>
-        <a href="https://pratulsrinivasan.github.io/nuvo/">project page</a>
+        <a href="https://drive.google.com/file/d/1Lmc-C4cmHf2V-KwhEmFo59f4mQqXrfZo/view?usp=sharing">PDF</a>
         /
-        <a href="https://www.youtube.com/watch?v=hmJiOSTDQZI">video</a>
-        /
-        <a href="http://arxiv.org/abs/2312.05283">arXiv</a>
+        <a href="#phragmites_data">Geospatial Data</a>
         <p></p>
         <p>
-        Neural fields let you recover editable UV mappings for the challenging geometries produced by NeRF-like models.
+        Evaluated invasive Phragmites management effectiveness using multi-sensor remote sensing analysis. Integrated Sentinel-2A imagery, LiDAR topography, and spectral indices (NDVI/NDRE/NMCARI) with texture analysis to map 57% reduction in invasive coverage along Newmarket's Tom Taylor Trail. Developed a multi-threshold classification framework combining DEM analysis with variance/entropy texture metrics.
+        </p>
+        <p>
+        Key components: Change detection mapping • 10m resolution analysis • Multi-index thresholding • LiDAR-DEM integration • Urban wetland monitoring • Seasonal comparison (June-August 2024)
         </p>
       </td>
     </tr>
-	
 	
     <tr onmouseout="recon_stop()" onmouseover="recon_start()" bgcolor="#ffffd0">
       <td style="padding:20px;width:25%;vertical-align:middle">

@@ -56,25 +56,18 @@
 
 
 
-   <tr onmouseout="flood_stop()" onmouseover="flood_start()">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='flood_image'><video  width=100% muted autoplay loop>
-          <source src="images/flood_preview.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src="images/floods.jpg" 
-     alt="Flood Hazard Map" 
-     style="width:100%">
-        <script type="text/javascript">
-          function flood_start() {
-            document.getElementById('flood_image').style.opacity = "1";
-          }
-
-          function flood_stop() {
-            document.getElementById('flood_image').style.opacity = "0";
-          }
-          flood_stop()
+   <td style="padding:20px;width:25%;vertical-align:middle">
+  <div class="one">
+    <div class="two" id='flood_image'>
+      <video width=100% muted autoplay loop>
+        <source src="drive-download-20250405T205752Z-001/flood_preview.mp4" type="video/mp4">
+      </video>
+    </div>
+    <img src="drive-download-20250405T205752Z-001/floods.jpg" 
+         alt="Flood Hazard Map" 
+         style="width:100%">
+  </div>
+</td>
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
